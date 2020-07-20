@@ -9,7 +9,7 @@ const profileCard = (user, image) => {
     return (
         <Link to={`/detail/${id}`} className='link'>
             <div className='linkContainer' key={id}>
-                <img src={image} className='profileImage' />
+                <img src={image} alt='profile' className='profileImage' />
                 <div className='linkText'>
                     {name}
                 </div>

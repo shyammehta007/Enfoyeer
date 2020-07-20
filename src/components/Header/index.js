@@ -7,7 +7,7 @@ const Header = (props) => {
     return (
         <div className='headerContainer'>
             <Link to="/">
-                <img src={logo} className='imageStyle'></img>
+                <img src={logo} alt='enfoyeer' className='imageStyle'></img>
             </Link>
         </div>
     )

@@ -75,7 +75,7 @@ const DedicatedPage = (props) => {
                     <div className='backArrow'>&#x2B05;</div>
                 </Link>
                 <Content />
-                <img src={profilePicture} className='backgroundImage' />
+                <img src={profilePicture} alt='full profile' className='backgroundImage' />
             </div>
             {Footer(userData)}
         </Fragment>
