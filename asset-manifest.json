@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Enfoyeer/static/css/main.673adec3.chunk.css",
+    "main.js": "/Enfoyeer/static/js/main.3e057c9a.chunk.js",
+    "main.js.map": "/Enfoyeer/static/js/main.3e057c9a.chunk.js.map",
+    "runtime-main.js": "/Enfoyeer/static/js/runtime-main.eb533f1d.js",
+    "runtime-main.js.map": "/Enfoyeer/static/js/runtime-main.eb533f1d.js.map",
+    "static/css/2.4707e12a.chunk.css": "/Enfoyeer/static/css/2.4707e12a.chunk.css",
+    "static/js/2.460d1094.chunk.js": "/Enfoyeer/static/js/2.460d1094.chunk.js",
+    "static/js/2.460d1094.chunk.js.map": "/Enfoyeer/static/js/2.460d1094.chunk.js.map",
+    "index.html": "/Enfoyeer/index.html",
+    "precache-manifest.0cee70d5bf4d7c3b3e01e6aedf3e5968.js": "/Enfoyeer/precache-manifest.0cee70d5bf4d7c3b3e01e6aedf3e5968.js",
+    "service-worker.js": "/Enfoyeer/service-worker.js",
+    "static/css/2.4707e12a.chunk.css.map": "/Enfoyeer/static/css/2.4707e12a.chunk.css.map",
+    "static/css/main.673adec3.chunk.css.map": "/Enfoyeer/static/css/main.673adec3.chunk.css.map",
+    "static/js/2.460d1094.chunk.js.LICENSE.txt": "/Enfoyeer/static/js/2.460d1094.chunk.js.LICENSE.txt",
+    "static/media/pageNotFound.png": "/Enfoyeer/static/media/pageNotFound.20debe4a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb533f1d.js",
+    "static/css/2.4707e12a.chunk.css",
+    "static/js/2.460d1094.chunk.js",
+    "static/css/main.673adec3.chunk.css",
+    "static/js/main.3e057c9a.chunk.js"
+  ]
+}
