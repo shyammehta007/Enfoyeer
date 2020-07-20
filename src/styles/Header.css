@@ -1,0 +1,21 @@
+
+.headerContainer{
+    background-color: #edebe6;
+    height: 120px;
+    display: flex;
+    object-position: center;   
+    position: relative;
+}
+
+.imageStyle{
+    height: 120px;
+    position: absolute;
+    left: 60px;
+}
+
+.headingText{
+    position: absolute;
+    right: 60px;
+    color: #86636c;
+    font-size: 18px;
+}

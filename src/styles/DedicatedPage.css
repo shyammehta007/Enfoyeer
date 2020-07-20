@@ -1,0 +1,108 @@
+.detailPage{
+    position: relative;
+    min-height: 850px;
+}
+.backLink{
+    text-decoration:none;
+}
+.backArrow{
+    position: absolute;
+    color: #ffffff;
+    font-size: 45px;
+    left: 20px;
+    top: 5px;
+    transition: 0.5s;
+    width: max-content;
+    opacity: 0.8;
+}
+.backArrow:hover{
+    font-size: 60px;
+    opacity: 1;
+    color:#d82727;
+}
+.backgroundImage{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 850px;
+    z-index: -1;
+}
+.footerContainer{
+    border-top: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+    height: 250px;
+}
+.footerTitle{
+    color: #00000054;
+    text-align: center;
+    font-weight: 500;
+    font-size: 35px;
+    padding-top: 14px;
+}
+.list{ 
+    list-style-type: circle;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    padding-top: 20px;
+}
+.items{
+    color: goldenrod;
+}
+.answer{
+    color: gray;
+    margin-left: 10px;
+}
+
+.gridContainer{
+    height: 850px;
+    text-align: center;
+    overflow: hidden;
+}
+.textGrid{
+    width: 100%;
+    height: 850px;
+    text-align: center;
+    overflow-y:scroll;
+    display: grid;
+    justify-content: center;
+}
+
+.textGrid::-webkit-scrollbar {
+    width: 2px;  
+    /* background: transparent;  */
+}
+.boxes{
+    width: 450px;
+    height: 850px;
+    color: white;
+    font-size: 25px;
+}
+
+.size{
+    flex-direction: column;
+    background-image: linear-gradient(to right,#1f2942, grey);
+    margin-top: 50%;
+    min-height: 200px;
+    justify-content: space-evenly;
+    display: flex;
+    position: relative;
+}
+.first::before  {
+    content: '\2193';
+    color: white;
+    position: absolute;
+    bottom: -200px;
+    font-size: 70px;
+    left: 45%;
+}
+.gridText{
+    font-size: 18px;
+    color: goldenrod;
+}
+.input{
+    font-size: 18px;
+    margin-left: 10px;
+    color: #73e393;
+}

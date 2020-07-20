@@ -1,0 +1,54 @@
+
+.profileContainer{
+    display: grid;
+    justify-content: center;
+    background-color: #191c1f;
+}
+
+.linkContainer{    
+    width: 400px;
+    min-height: 120px;
+    background: #18191a;
+    position: relative;
+    margin-top: 15px;
+    border-radius: 0px 40px 40px 0px;
+    transition: 0.5s;
+}
+.linkContainer:hover{
+    background-image: linear-gradient(to right, black, grey);
+    width: 500px;
+    height: 150px;
+    border: 1px solid;
+    box-shadow: 2px 2px #b7762c;
+}
+.linkContainer:hover::before{
+    content:'\203A';
+    width: 10px;
+    height: 10px;
+    color: black;
+    position: absolute;
+    right: 50px;
+    font-size: 100px;
+}
+
+.link{
+    text-decoration: none;
+}
+.profileImage{
+    width: 100px;
+    height: 100px;
+    border-radius: 49px;
+    position: absolute;
+    top: 6%;
+    left: 6%;
+}
+.profileImage:hover{
+    top: 10%;
+    left: 6%;
+}
+.linkText{
+    font-size: 21px;
+    padding: 10% 0px 0px 140px;
+    max-width: 200px;
+    color: white;
+}
