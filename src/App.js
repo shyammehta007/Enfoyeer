@@ -14,7 +14,7 @@ const fetchData = async (props) => {
     .then(json => {
       props.setUserData(json)
     })
-  await fetch('https://pixabay.com/api/?key=17528862-978b87f9364e392e1389dcbcf&q=office&image_type=photo&pretty=true&per_page=10')
+  await fetch('https://pixabay.com/api/?key=17528862-978b87f9364e392e1389dcbcf&image_type=photo&pretty=true&per_page=10')
     .then(response => response.json())
     .then(json => {
       const { hits } = json
